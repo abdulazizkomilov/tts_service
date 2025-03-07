@@ -8,3 +8,4 @@ services:
     container_name: openai_service
     ports:
       - "8002:8002"
+    restart: always
