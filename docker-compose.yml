@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  openai_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: openai_service
+    ports:
+      - "8002:8002"
